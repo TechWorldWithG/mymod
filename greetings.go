@@ -1,5 +1,5 @@
 package mymod
 
-func Greet() string {
+func Mygreet() string {
 	return "welcome to version 0"
 }
