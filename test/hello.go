@@ -2,6 +2,6 @@ package test
 
 import "fmt"
 
-func Hello(name string) string {
-	return fmt.Sprintf("hello %v", name)
+func Hello(greet, name string) string {
+	return fmt.Sprintf("%v %v", greet, name) // "greet name" // greet = hello // name=jay
 }
